@@ -22,3 +22,4 @@ public class ItemController {
 		return "index.jsp";
 	}
 }
+//Notice the PascalCase of the project name, FruityLoops 
