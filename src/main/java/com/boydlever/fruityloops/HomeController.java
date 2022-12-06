@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.boydlever.models.Fruit;
 @Controller
 public class HomeController {
 
@@ -24,6 +25,8 @@ public class HomeController {
 
 		return "fruityLoop.jsp";
 	}
+	@RequestMapping("/fruityLoop")
+	public String fruityLoop() {
+		return "fruityLoop.jsp";
+	}
 }
-//Notice the PascalCase of the project name, FruityLoops
-//There needs to be a package for the model
